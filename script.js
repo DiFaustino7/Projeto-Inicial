@@ -1,6 +1,7 @@
 function toggleMode() {
     const html = document.documentElement
     html.classList.toggle("light")
+    
     //tambem poderia ser assim:
 
     //if(html.classList.contains(`light`)){
